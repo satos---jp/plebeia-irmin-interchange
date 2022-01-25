@@ -1,0 +1,25 @@
+opam-version: "2.0"
+maintainer: "satos@dailambda.jp"
+authors: "satos"
+homepage: "XXX"
+synopsis: "XXX"
+bug-reports: "XXX"
+
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+
+depends: [
+	"irmin"
+	"irmin-pack"
+	"plebeia"
+  "irmin-test"
+  "fpath"
+]
+
+# pin-depends: [
+# 	["irmin.2.10" "git+https://github.com/mirage/irmin.git#2.10"]
+# 	["irmin-pack.2.10" "git+https://github.com/mirage/irmin.git#2.10"]
+# 	["irmin-test.2.10" "git+https://github.com/mirage/irmin.git#2.10"]
+# 	["plebeia.master" "git+https://gitlab.com/dailambda/plebeia.git#master"]
+# ]

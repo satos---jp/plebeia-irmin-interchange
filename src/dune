@@ -1,0 +1,5 @@
+(executable 
+	(name main)
+	(libraries
+		irmin irmin-pack from_irmin
+		plebeia test_utils))

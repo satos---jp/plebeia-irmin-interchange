@@ -1,0 +1,11 @@
+(library
+ (name common)
+ (modules common)
+ (libraries alcotest index irmin irmin-test irmin-pack logs lwt))
+
+
+(library
+ (name from_irmin)
+ (modules from_irmin import)
+ (libraries alcotest fmt common index irmin irmin-test irmin-pack
+   irmin-pack.layered irmin-pack.mem logs lwt lwt.unix fpath))
